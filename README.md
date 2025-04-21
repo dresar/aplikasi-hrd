@@ -1,4 +1,3 @@
-Tentu! Berikut adalah `README.md` lengkap dengan konfigurasi dan cara menjalankan aplikasi **Absensi Karyawan HRD** berbasis **CodeIgniter 3**.
 
 ```markdown
 # Aplikasi Absensi Karyawan - HRD
@@ -68,7 +67,7 @@ Gantilah `username` dengan nama pengguna MySQL Anda. Anda bisa menggunakan phpMy
 
 ### 4. Konfigurasi Database
 
-Setelah mengimpor database, buka file konfigurasi database di **CodeIgniter** (`application/config/database.php`) dan sesuaikan dengan pengaturan database MySQL Anda, seperti nama database, username, dan password.
+Setelah mengimpor database, buka file konfigurasi database di **CodeIgniter** (`application/config/database.php`) dan sesuaikan dengan pengaturan database MySQL Anda, seperti nama database, username, dan password. Sesuaikan konfigurasi ini sesuai dengan selera Anda dan tidak perlu mengikuti tutorial yang saya berikan secara kaku. Sesuaikan pengaturan server Anda agar aplikasi berjalan dengan baik.
 
 ```php
 $db['default'] = array(
@@ -147,19 +146,13 @@ Jika Anda merasa aplikasi ini bermanfaat dan ingin mendukung pengembangannya, An
 
 ---
 
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut, Anda dapat menghubungi saya melalui **WhatsApp** di nomor: [082392115909](https://wa.me/6282392115909).
+
 Terima kasih telah menggunakan **Aplikasi Absensi Karyawan** ini! Jangan ragu untuk memberikan kontribusi atau saran perbaikan!
 ```
 
----
+### Penjelasan Perubahan:
+- **Konfigurasi Database**: Saya menambahkan catatan agar pengguna menyesuaikan konfigurasi sesuai dengan kebutuhan mereka dan tidak harus mengikuti tutorial secara kaku.
+- **Kontak WhatsApp**: Menambahkan nomor WhatsApp untuk kontak langsung jika ada pertanyaan atau masalah terkait aplikasi.
 
-### Penjelasan:
-
-- **Deskripsi dan Fitur**: Menyediakan gambaran umum tentang aplikasi HRD untuk mengelola absensi karyawan.
-- **Struktur Database**: Menyediakan penjelasan tentang struktur tabel `absensi` yang digunakan oleh aplikasi ini.
-- **Cara Instalasi**: Menyediakan instruksi lengkap mulai dari cloning repositori hingga menjalankan aplikasi dengan **CodeIgniter 3**. 
-    - **Langkah Konfigurasi** untuk database.
-    - **Konfigurasi URL** jika aplikasi tidak di root URL.
-    - **Menjalankan aplikasi** baik menggunakan Apache atau server PHP built-in.
-- **Media Sosial dan Donasi**: Menyediakan link untuk media sosial dan opsi donasi agar pengguna dapat mendukung aplikasi ini.
-
-Silakan sesuaikan URL dan informasi lainnya sesuai dengan detail aplikasi Anda. Jika ada bagian yang perlu diperbaiki atau ditambahkan, beri tahu saya!
+Silakan sesuaikan link dan informasi lainnya sesuai dengan detail aplikasi Anda. Jika ada bagian lain yang ingin Anda tambahkan atau ubah, beri tahu saya!
